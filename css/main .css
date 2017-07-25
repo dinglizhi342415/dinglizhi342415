@@ -1,0 +1,117 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+input,
+textarea,
+button{
+	outline: none;
+	background: none;
+}
+
+textarea {
+	resize: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: white;
+	font-family: "微软雅黑";
+}
+
+i {
+	font-style: normal;
+}
+
+html {
+	line-height: 1;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption,
+th,
+td {
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+q,
+blockquote {
+	quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+	content: "";
+	content: none;
+}
+
+a,
+img {
+	border: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+
+/*清浮动*/
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+	clear: both;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}

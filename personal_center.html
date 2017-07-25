@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main .css" />
+		<link rel="stylesheet" type="text/css" href="css/lyz.calendar.css" />
+		<link rel="stylesheet" type="text/css" href="css/personal_center.css" />
+		<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lyz.calendar.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/citys.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/uploadpic.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/personal.js"></script>
+		<script src="js/public.js"></script>
+		<script src="js/shopping.js"></script>
+		
+	</head>
+
+	<body>
+		<div class="nav_box">
+            <div class="nav">
+                <div class="nav_left">
+                    <a href="index.html"><img src="img/house.png" alt="首页"><p class="house">牡丹街首页</p></a>
+                </div>
+                <div class="nav_right">
+                    <ul>
+                        <li class="user">
+                            <a href="personal_center.html" class="nav_a"><span id="users"></span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="personal_center.html">个人信息</a></li>
+                                <li><a class="exit">退出</a></li>
+                            </ul>
+                        </li>
+                        <li class="favorite">
+                            <a href="#" class="nav_a"><span>我的收藏</span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="#">收藏宝贝</a></li>
+                                <li><a href="#">收藏店铺</a></li>
+                            </ul>
+                        </li><span class="jian">|</span>
+                        <li class="indent"><a href="#" class="nav_a"><span>我的订单</span></a></li><span class="jian">|</span>
+                        <li class="shopping"><a href="#" class="nav_a"><span>购物车</span></a></li><span class="jian">|</span>
+                        <li class="help">
+                            <a href="#" class="nav_a"><span>帮助中心</span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="#">买家服务</a></li>
+                                <li><a href="#">商家服务</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+			<div class="box_one">
+				<img src="img/logo.png" alt="">
+				<div class="right_b">
+					<div class='ones'>宝贝</div>
+					<div class='twos'>店铺</div>
+					<div class="inpotr">
+						<input type="text" class="oninp" id="lick">
+						<div class="rig_d">
+							<img src="img/seek.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tob_">
+				<ul>
+					<li class="nav_one">全部商品
+						<!--<div class="left_b" style="display:none">
+							<ul>
+								<li class="onesss">
+									<span>上衣</span>
+									<a href="#" id="twa">针织开衫</a>
+									<a href=="#">喇叭袖</a>
+									<a href="#" id="twa">套装</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+									<a href="#">衣服</a>
+								</div>
+								<li class="onesss">
+									<span>裙子</span>
+									<a href="#">连衣裙</a>
+									<a href="#" id="twa">春季新款</a>
+									<a href="#">衣裙套装</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+									<a href="#">裙子</a>
+								</div>
+
+								<li class="onesss">
+									<span>裤子</span>
+									<a href="#">裤腿裤</a>
+									<a href="#">毛呢裤</a>
+									<a href="#" id="twa">牛仔裤</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+									<a href="#">裤子</a>
+								</div>
+								<li class="onesss">
+									<span>袜子</span>
+									<a href="#">喜洋洋</a>
+									<a href="#" id="twa">懒洋洋</a>
+									<a href="#">暖洋洋</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+									<a href="#">袜子</a>
+								</div>
+								<li class="onesss">
+									<span>鞋子</span>
+									<a href="#">新百伦</a>
+									<a href="#">吧啦吧啦</a>
+									<a href="#">耐克</a>
+									<a href="#" id="twa">特步</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+									<a href="#">鞋子</a>
+								</div>
+								<li class="onesss">
+									<span>手套</span>
+									<a href="#">冬季保暖</a>
+									<a href="#">手套</a>
+									<a href="#">登山专用</a>
+									<a href="#" id="twa">儿童</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+									<a href="#">手套</a>
+								</div>
+								<li class="onesss">
+									<span>电器</span>
+									<a href="#">拳击机器人</a>
+									<a href="#" id="twa">家务机器人</a>
+									<a href="#">机器人</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+									<a href="#">电器</a>
+								</div>
+								<li class="onesss">
+									<span>其他</span>
+									<a href="#" id="twa">百草味</a>
+									<a href="#">三只松鼠</a>
+									<a href="#" id="twa">卫龙</a>
+									<img src="img/aa.png" alt="">
+
+								</li>
+								<div class="one1li" style="display:none">
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+									<a href="#">其他</a>
+								</div>
+							</ul>
+						</div>-->
+					</li>
+					<li>首页</li>
+					<li>风格号店</li>
+					<li>好物</li>
+				</ul>
+			</div>
+		</div>
+		<div class="personal_conbox">
+			<div class="personal_con">
+				<div class="personal_con_left fl">
+					<div class="portrait">
+						<input type="file" name="file" id="file"  accept="image/*" capture="camera" value="" />
+						<div class="portrait_circle">
+							<img id="photo"/>
+						</div>
+						<p>姓名</p>
+					</div>
+					<div class="portrait_con">
+						<p>我的订单</p>
+						<p class="p1">全部订单</p>
+						<p class="p1">待付款</p>
+						<p class="p1">待收货</p>
+						<p class="p1">待评价</p>
+						<p class="p1">退款退货</p>
+						<p>订单回收站</p>
+						<br />
+						<br />
+						<p>我的足迹</p>
+						<p>收货地址 </p>
+					</div>
+				</div>
+				<div class="personal_con_right fr">
+					<div class="personal_con_right_tit">我的信息</div>
+					<div class="personal_con_right_con">
+						<form id="setPersonForm" method="post" onsubmit="return false" action="">
+							<div class="form-list">
+								<label class="account-label"> 注册邮箱 </label>
+								<input id="register_mail" class="l_ipt input_disable" name="register_mail" autocomplete="off" value="" disabled="disabled" type="text">
+								<strong></strong>
+							</div>
+							<div class="form-list">
+								<label class="account-label"> 真实姓名 </label>
+								<input id="true_name" class="l_ipt" name="true_name" autocomplete="off" value="" type="text">
+								<strong></strong>
+							</div>
+							<div class="form-list">
+								<label class="account-label"> 昵称 </label>
+								<input id="nickname" class="l_ipt" name="nickname" autocomplete="off" value="" type="text">
+								<strong></strong>
+							</div>
+							<div id="gender" class="gender">
+								<label class="account-label"> 性别 </label>
+								<input id="female" class="regular-radio" name="gender" value="0" checked="checked" type="radio">
+								<label class="regular-radio-label" for="female"></label>
+								<span>女</span>
+								<input id="male" class="regular-radio" name="gender" value="1" type="radio">
+								<label class="regular-radio-label" for="male"></label>
+								<span>男</span>
+								<strong></strong>
+							</div>
+							<div id="birthday-list" class="form-list">
+								<label class="account-label"> 生日 </label>
+								<input id="birthday" class="laydate-icon" readonly="" name="birthday" autocomplete="off" value="" type="text">
+								<strong></strong>
+							</div>
+							<div id="area-list" class="form-list" data-province="0" data-city="0">
+								<label class="account-label"> 所在地 </label>
+								<div class="select-container">
+									<select id="province_id" name="provinceid">
+										<option value='请选择省份'>请选择省份</option>
+									</select>
+								</div>
+								<div class="select-container">
+									<select id="city_id" name="city_id">
+										<option value="请选择城市">请选择城市</option>
+									</select>
+								</div>
+								<strong></strong>
+							</div>
+							<div id="job-list" class="form-list" data-job="0">
+								<label class="account-label"> 从事行业 </label>
+								<div class="select-container job-select">
+									<select id="occupation" name="occupation">
+										<option value="0">请选择您的职业</option>
+										<option value="公关">公关</option>
+										<option value="媒体">媒体</option>
+										<option value="模特">模特</option>
+										<option value="设计师">设计师</option>
+										<option value="市场/营销">市场/营销</option>
+										<option value="创意/文案">创意/文案</option>
+										<option value="广告">广告</option>
+										<option value="法律">法律</option>
+										<option value="贸易">贸易</option>
+										<option value="公务员">公务员</option>
+										<option value="教育">教育</option>
+										<option value="互联网">互联网</option>
+										<option value="计算机">计算机</option>
+										<option value="自由职业">自由职业</option>
+										<option value="学生">学生</option>
+										<option value="非盈利机构">非盈利机构</option>
+										<option value="保险">保险</option>
+										<option value="财务">财务</option>
+										<option value="餐饮">餐饮</option>
+										<option value="电子/微电子">电子/微电子</option>
+										<option value="翻译">翻译</option>
+										<option value="房地产/建筑">房地产/建筑</option>
+										<option value="航空航天">航空航天</option>
+										<option value="家电业">家电业</option>
+										<option value="家居/室内设计">家居/室内设计</option>
+										<option value="教育/培训">教育/培训</option>
+										<option value="酒店">酒店</option>
+										<option value="会计">会计</option>
+										<option value="科研/院校">科研/院校</option>
+										<option value="快速消费品">快速消费品</option>
+										<option value="零售">零售</option>
+										<option value="旅游">旅游</option>
+										<option value="其他">其他</option>
+									</select>
+								</div>
+								<strong></strong>
+							</div>
+							<div class="form-list">
+								<label class="account-label"> 个人说明 </label>
+								<textarea id="introduction" class="introduction" name="introduction"></textarea>
+								<br>
+								<strong></strong>
+							</div>
+							<input id="submit" class="ext_submit" value="确 认" type="submit">
+							<span class="submitError"></span>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

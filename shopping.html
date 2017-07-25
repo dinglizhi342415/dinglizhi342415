@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/shopping.js"></script>
+    <script src="js/public.js"></script>
+</head>
+<body>
+    <div class="bigbox">
+        <!--导航nav-->
+        <div class="nav_box">
+            <div class="nav">
+                <div class="nav_left">
+                    <a href="index.html"><img src="img/house.png" alt="首页"><p class="house">牡丹街首页</p></a>
+                </div>
+                <div class="nav_right">
+                    <ul>
+                        <li class="user">
+                            <a href="personal_center.html" class="nav_a"><span class="user"></span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="personal_center.html">个人信息</a></li>
+                                <li><a class="exit">退出</a></li>
+                            </ul>
+                        </li>
+                        <li class="favorite">
+                            <a href="#" class="nav_a"><span>我的收藏</span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="#">收藏宝贝</a></li>
+                                <li><a href="#">收藏店铺</a></li>
+                            </ul>
+                        </li><span class="jian">|</span>
+                        <li class="indent"><a href="#" class="nav_a"><span>我的订单</span></a></li><span class="jian">|</span>
+                        <li class="shopping"><a href="#" class="nav_a"><span>购物车</span></a></li><span class="jian">|</span>
+                        <li class="help">
+                            <a href="#" class="nav_a"><span>帮助中心</span><img class="icco" src="img/icco_01.png"></a>
+                            <ul class="top_sel">
+                                <li><a href="#">买家服务</a></li>
+                                <li><a href="#">商家服务</a></li>
+                                <li><a href="#">联系我们</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--进度-->
+        <div class="schedule_box">
+            <div class="schedule">
+                <div class="left">
+                    <img src="img/gwc.png" alt="购物车">
+                </div>
+                <div class="right">
+                    <img src="img/schedule_03.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!--购物车-->
+        <div class="shopping_box">
+            <div class="title">
+                <div class="title_ul">
+                    <ul>
+                        <li class="shopping_num">全部商品（<span id="shopping_num"></span>）</li><span class="uls">|</span>
+                        <li class="privilege">优惠（<span>1</span>）</li><span class="uls">|</span>
+                        <li class="lack">库存紧张（<spqn>0</spqn>）</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="shopping_con">
+                <div class="shopping_li">
+                    <table cellspacing="0">
+                        <tr>
+                            <td class="input">
+                                <input type="checkbox" name="check"><span>全选</span>
+                            </td>
+                            <td class="shopping_img">商品</td>
+                            <td class="message">商品信息</td>
+                            <td class="danjia">单价（元）</td>
+                            <td class="nums">数量</td>
+                            <td class="subtotal1">小计（元）</td>
+                            <td class="operation">操作</td>
+                        </tr>
+                        <tr class="tt">
+                            <td class="inputs"><input type="checkbox" name="check"><span>店铺：</span></td>
+                            <td><a href="#">美丽优选</a><a href="#">联系客服</a></td>
+                            <td colspan="5">优惠券：<div class="pri">领取</div></td>
+                        </tr>
+                        <tr class="shopping_xinxi">
+                            <td><input type="checkbox" class="checked"></td>
+                            <td class="canping"><img src="img/detail_small_one.png" alt=""><p>2017春季新品几何刺绣花朵韩版百搭中长款宽松牛仔外套</p></td>
+                            <td><p>颜色：<span>黑色</span></p><p>尺码：<span>M</span></p></td>
+                            <td class="sibl"><p class="disable">151.79</p><p class="enable">110.00</p></td>
+                            <td class="button2">
+                                <div>
+                                    <p class="subtract">-</p>
+                                    <p class="num">1</p>
+                                    <p class="add">+</p>
+                                </div></td>
+                            <td><span class="subtotal">110.00</span></td>
+                            <td><span class="del">删除</span></td>
+                        </tr>
+                        <tr class="shopping_xinxi">
+                            <td><input type="checkbox" class="checked"></td>
+                            <td class="canping"><img src="img/detail_small_one.png" alt=""><p>2017春季新品几何刺绣花朵韩版百搭中长款宽松牛仔外套</p></td>
+                            <td><p>颜色：<span>黑色</span></p><p>尺码：<span>M</span></p></td>
+                            <td class="sibl"><p class="disable">151.79</p><p class="enable">100.00</p></td>
+                            <td class="button2">
+                                <div>
+                                    <p class="subtract">-</p>
+                                    <p class="num">1</p>
+                                    <p class="add">+</p>
+                                </div></td>
+                            <td><span class="subtotal">100.00</span></td>
+                            <td><span class="del">删除</span></td>
+                        </tr>
+                        <tr class="shopping_xinxi">
+                            <td><input type="checkbox" class="checked"></td>
+                            <td class="canping"><img src="img/detail_small_one.png" alt=""><p>2017春季新品几何刺绣花朵韩版百搭中长款宽松牛仔外套</p></td>
+                            <td><p>颜色：<span>黑色</span></p><p>尺码：<span>M</span></p></td>
+                            <td class="sibl"><p class="disable">151.79</p><p class="enable">90.00</p></td>
+                            <td class="button2">
+                                <div>
+                                    <p class="subtract">-</p>
+                                    <p class="num">1</p>
+                                    <p class="add">+</p>
+                                </div></td>
+                            <td><span class="subtotal">90.00</span></td>
+                            <td><span class="del">删除</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="div1"></div>
+            </div>
+            <div class="summary">
+                <div class="input_sum"><input type="checkbox"><span>全选</span></div>
+                <div class="dell"><span class="dell1">删除</span><span class="delete">清除失效商品</span></div>
+                <div class="jiezhang"><div class="tex">共有<span class="geshu">0</span>款商品 ，总计：</div><p class="total">￥<span>0.00</span></p><div class="daifukuan">待付款 ></div></div>
+            </div>
+        </div>
+        <!--购物车为空-->
+        <div class="shopping_box_k">
+            <div class="shopping_k">
+                <div class="shopping_k_con">
+                    <div class="left"><img src="img/gwc1_03.png" alt=""></div>
+                    <div class="right">
+                        <h5>您的购物车还是空的，赶快去挑选商品吧！</h5>
+                        <p class="zr">去看看大家都喜欢的<a href="#">最热</a></p>
+                        <p class="sy">去看看正在折扣中的优品<a href="#">首页</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--底部-->
+        <div class="sbottom">
+            <div class="sbottom_1">
+                <p class="copy">牡丹街 © 2016 mudanjie.all</p>
+                <p class="split">
+                    <a href="#" class="vs"></a>
+                    <a href="#" class="mc"></a>
+                    <a href="#" class="up"></a>
+                    <a href="#" class="pa"></a>
+                    <a href="#" class="kx"></a>
+                    <a href="#" class="pc"></a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

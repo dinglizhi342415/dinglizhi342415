@@ -1,0 +1,426 @@
+.externum {
+	width: 100%;
+	height: 30px;
+	background: #f2f2f2;
+}
+
+.externum ul {
+	margin: 0 0 0 880px;
+	padding: 3px 0 0 0;
+}
+
+.externum ul li {
+	float: left;
+	list-style: none;
+	width: 110px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	border-left: 1px dashed #ddd;
+	font-size: 12px;
+}
+
+.externum ul li:hover {
+	color: #ff3366;
+}
+
+
+/*这是头部搜索框部分*/
+
+.box_one {
+	width: 1201px;
+	height: 120px;
+	margin: auto;
+	line-height: 120px;
+}
+
+.box_one img {
+	vertical-align: middle;
+	margin-left: 25px;
+}
+
+.right_b {
+	width: 520px;
+	height: 85px;
+	float: right;
+	margin-top: 32px;
+}
+
+.twos {
+	width: 56px;
+	height: 24px;
+	background: #f2f2f2;
+	float: left;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.ones {
+	background: #ff3366;
+	color: #fff;
+	width: 56px;
+	height: 24px;
+	float: left;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.inpotr {
+	width: 516px;
+	height: 28px;
+	border: 2px solid #ff3366;
+	float: left;
+	line-height: 28px;
+}
+
+.oninp {
+	width: 447px;
+	height: 25px;
+	border: 0;
+	outline: none;
+	float: left;
+}
+
+.rig_d {
+	width: 68px;
+	height: 28px;
+	background: #ff3366;
+	float: right;
+	line-height: 26px;
+}
+
+.rig_d img {
+	width: 20px;
+	vertical-align: middle;
+}
+
+
+/*这是轮播图上面的*/
+
+.tob_ {
+	width: 100%;
+	height: 40px;
+	border-bottom: 2px solid #ff3366;
+}
+
+.tob_ ul {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	width: 1201px;
+	height: 40px;
+}
+
+.tob_ ul li {
+	font-size: 13px;
+	float: left;
+	margin-left: 80px;
+	list-style: none;
+	line-height: 40px;
+}
+
+.tob_ ul li:hover {
+	color: #ff3366;
+}
+
+.tob_ ul li.nav_one {
+	margin: 0;
+	width: 290px;
+	height: 40px;
+	background: #ff5367;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+
+.left_b {
+	width: 286px;
+	height: 346px;
+	border: 2px solid #ff3366;
+	float: left;
+	background: #fff;
+}
+
+.left_b ul {
+	margin: 0;
+	padding: 12px 20px;
+	position: absolute;
+	top: 40px;
+	left: -80px;
+	width: 290px;
+}
+
+.left_b ul li {
+	width: 254px;
+	height: 39px;
+	border-bottom: 1px dashed #979797;
+	line-height: 39px;
+	font-size: 12px;
+	list-style: none;
+	clear: both;
+}
+
+.left_b ul li span {
+	color: #000;
+	float: left;
+	margin-right: 22px;
+}
+
+.left_b ul li a {
+	float: left;
+	text-decoration: none;
+	color: #000;
+	margin-right: 10px;
+}
+
+#twa {
+	text-decoration: none;
+	color: #ff3366;
+}
+
+.left_b ul li img {
+	float: right;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.one1li {
+	position: absolute;
+	width: 500px;
+	height: 306px;
+	border: 2px solid #ff5367;
+	background: #fff;
+	border-left: 0;
+	top: 0px;
+	left: 370px;
+	padding: 20px;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background: #fff;
+	z-index: 999;
+}
+
+.one1li a {
+	width: 50px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+}
+
+
+/*中间的内容*/
+
+.personal_conbox {
+	width: 100%;
+	height: 807px;
+	background: #fff;
+}
+
+.personal_con {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 47px;
+}
+
+.personal_con_left {
+	width: 135px;
+	height: 615px;
+	border: 1px solid #999;
+	padding: 31px 17px 0 20px;
+}
+
+.portrait {
+	width: 134px;
+	height: 135px;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	position: relative;
+}
+#file{
+	-webkit-appearance: none;
+	opacity: 0;
+	width: 92px;
+	height: 92px;
+	border-radius: 50%;
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	z-index: 8;
+}
+
+.portrait_circle {
+	width: 92px;
+	height: 92px;
+	border-radius: 50%;
+	background: #999999;
+	margin: 0 auto;
+	z-index: 1;
+	overflow: hidden;
+}
+#photo{
+	 height: 92px;
+    width: 100%;
+}
+.portrait p {
+	line-height: 34px;
+	font-size: 12px;
+	color: #999999;
+	font-weight: bold;
+	clear: both;
+}
+
+.portrait_con {
+	padding: 31px 0 0 11px;
+}
+
+.portrait_con p {
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 18px;
+}
+
+.portrait_con p.p1 {
+	color: #999999;
+}
+
+.personal_con_right {
+	width: 1013px;
+}
+
+.personal_con_right_tit {
+	width: 998px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #999;
+	padding-left: 15px;
+}
+
+.personal_con_right_con {
+	margin-top: 40px;
+	margin-bottom: 150px;
+	position: relative;
+}
+
+.form-list,
+.gender {
+	margin-bottom: 24px;
+	margin-left: 100px;
+	color: #999;
+}
+
+.account-label {
+	color: #000;
+	margin-right: 10px;
+	width: 73px;
+	text-align: right;
+	float: left;
+	line-height: 35px;
+	font-size: 12px
+}
+
+.l_ipt {
+	width: 400px;
+	height: 35px;
+	border: 1px solid #999;
+	padding-left: 5px;
+}
+
+.regular-radio {
+	display: none;
+}
+
+.regular-radio:checked+.regular-radio-label::after {
+	background-color: #f36;
+}
+
+.regular-radio+.regular-radio-label::after {
+	border-radius: 50px;
+	content: " ";
+	font-size: 32px;
+	height: 8px;
+	left: 2px;
+	position: absolute;
+	top: 2px;
+	width: 8px;
+}
+
+.regular-radio:checked+.regular-radio-label {
+	color: #f36;
+}
+
+.regular-radio+.regular-radio-label {
+	background-color: #fff;
+	border: 1px solid #f36;
+	border-radius: 50px;
+	display: inline-block;
+	margin-top: 9px;
+	padding: 6px;
+	position: relative;
+}
+
+.laydate-icon {
+	width: 400px;
+	height: 35px;
+	border: 1px solid #999;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-color: #fff;
+	outline: 0;
+	background-image: url(http://s17.mogucdn.com/p1/160728/idid_ifqtgyjrgqzdknzqmezdambqgyyde_25x16.png);
+}
+.select-container {
+    background: rgba(0, 0, 0, 0) url("http://s16.mogucdn.com/p1/160720/idid_ifrdqnlcg4ygczdehezdambqmeyde_25x40.png") no-repeat scroll right center;
+    border: 1px solid #ddd;
+    display: inline-block;
+    height: 33px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 115px;
+}
+.select-container select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    color: #999;
+    height: 100%;
+    padding-left: 10px;
+    width: 135px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.job-select select {
+    width: 157px;
+    padding-right: 20px;
+}
+.form-list textarea {
+    color: #999;
+    padding: 10px;
+}
+.introduction {
+    border: 1px solid #ddd;
+    height: 133px;
+    width: 393px;
+}
+.ext_submit {
+    margin-left: 183px;
+}
+.ext_submit {
+    background-color: #f36;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+.onError{
+	color: red;
+	background: url(../img/error.png) no-repeat left center;
+	line-height: 22px;
+	font-size: 12px;
+	padding-left: 20px;
+}

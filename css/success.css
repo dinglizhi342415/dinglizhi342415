@@ -1,0 +1,171 @@
+body,p,ul,li,dt,dd,form,input,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline: none;
+}
+.tops{
+	width:100%;
+	height:70px;
+	border-bottom: 1px solid #afafaf;
+	background: #f4f4f4;
+}
+.top{
+	width: 1200px;
+	height:70px;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-top: 12.5px;
+}
+.pay{
+	float: right;
+	margin-top: 17px;
+	width: 490px;
+}
+.pay li{
+	float: left;
+	font-size: 12px;
+	position: relative;
+}
+.payli1,.payli4{
+	width: 86.5px;
+}
+.payli2,.payli3{
+	width:153px;
+}
+.payli1 div:nth-child(1){
+	margin-left:8px;
+	background: #fe6577;
+}
+.payli2 div:nth-child(1),.payli3 div:nth-child(1){
+	margin: 0 auto;
+	
+}
+.payli4 div:nth-child(1){
+	margin-left: 64px;
+}
+.payli1 div:nth-child(1),.payli2 div:nth-child(1),.payli3 div:nth-child(1),.payli4 div:nth-child(1){
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+	line-height: 20px;
+	color:#fbfbfb;
+	text-align: center;
+	margin-bottom: 2px;
+	background: #fe6577;
+}
+.payli1 div:nth-child(2){
+	color: #ff4266;
+}
+.payli2 div:nth-child(2),.payli3 div:nth-child(2){
+	color: #606060;
+	text-align: center;
+}
+.payli4 div:nth-child(2){
+	color: #606060;
+	text-align: right;
+}
+.payli1 div:nth-child(3),.payli2 div:nth-child(3),.payli2 div:nth-child(4),.payli3 div:nth-child(3),.payli3 div:nth-child(4),.payli4 div:nth-child(3){
+	width: 67.5px;
+	height: 4px;
+	background: #fe6577;
+	position: absolute;
+}
+.payli1 div:nth-child(3){
+	left:20px;top:8px;
+}
+.payli2 div:nth-child(3),.payli3 div:nth-child(3),.payli4 div:nth-child(3){
+	left:0px;top:8px;
+}
+.payli2 div:nth-child(4),.payli3 div:nth-child(4){
+	left:86.5px;top:8px;
+}
+.text{
+	width:100%;
+	background: #f4f4f4;
+	height: 1007px;
+}
+.texts{
+	width: 1200px;
+	height: 960px;
+	margin: 0 auto;
+	background: #fff;
+}
+.suggest{
+	height: 95px;
+	line-height: 95px;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom:1px solid #999;
+	padding-left: 35px;
+}
+.down{
+	width: 212px;
+	height:305px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.down p{
+	text-align: center;
+	font-size: 14px;
+}
+.down p:nth-child(2){
+	width: 210px;
+	height: 210px;
+	border: 1px solid #999;
+	line-height: 210px;
+	margin: 30px 0 30px 0;
+	font-size: 18px;
+}
+
+
+.likes{
+	width:815px;
+	height:30px;
+	margin: 130px 0 35px 35px;
+	line-height: 30px;
+}
+.likes p:first-child{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.change{
+	float: right;
+	font-size: 12px;
+}
+.change:hover{
+	cursor: pointer;
+}
+.changeli{
+	width: 522px;
+	height:206px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.changelist{
+	width:1200px;
+	position: absolute;
+	left: 0;right: 0;
+	
+}
+.changelist li{
+	float: left;
+	padding: 0 27px 0 27px;
+	text-align: center;
+}
+.floor{
+	width: 50px;
+	height: 153px;
+	border: 1px dotted green;
+	position: fixed;
+	left: 200px;top:300px;
+}
